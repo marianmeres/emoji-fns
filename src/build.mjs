@@ -67,7 +67,7 @@ async function build() {
 				mkdirpSync(path.join(DISTDIR, outdir));
 				const hexId = path.basename(name, '.svg').toLowerCase();
 
-				// probably skin tone variation or perhaps custom?
+				// probably skin tone variation or perhaps custom emoji outside of the spec?
 				if (!emojiCodeMap[hexId]) {
 					// log(`Skipping ${fnPrefix} ${hexId} (not found)...`);
 					return;
