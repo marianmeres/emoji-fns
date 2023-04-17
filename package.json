@@ -2,7 +2,14 @@
   "name": "@marianmeres/emoji-fns",
   "version": "1.0.0",
   "description": "Emoji svgs wrapped as functions.",
-  "main": "index.js",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
   "scripts": {
     "clean": "rimraf dist/*",
     "prettier": "prettier --write src/build.mjs",
