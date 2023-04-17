@@ -1,0 +1,1 @@
+export const twemojiWhiteMediumSmallSquare = (cls = null, size = null, style = null) => `<svg style="${style || ''}" class="${cls || ''}" width="${size || 36}" height="${size || 36}" viewBox="0 0 36 36"><path fill="#E6E7E8" d="M29 27c0 1.104-.896 2-2 2H9c-1.104 0-2-.896-2-2V9c0-1.104.896-2 2-2h18c1.104 0 2 .896 2 2v18z"/></svg>`;

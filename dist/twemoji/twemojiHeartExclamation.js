@@ -1,0 +1,1 @@
+export const twemojiHeartExclamation = (cls = null, size = null, style = null) => `<svg style="${style || ''}" class="${cls || ''}" width="${size || 36}" height="${size || 36}" viewBox="0 0 36 36"><path fill="#DD2E44" d="M18 4C14.875-2.375 6-.731 6 7c0 7.062 12 17 12 17s12-9.938 12-17c0-7.731-8.875-9.375-12-3z"/><circle fill="#DD2E44" cx="18" cy="31" r="5"/></svg>`;
