@@ -1,6 +1,6 @@
 {
   "name": "@marianmeres/emoji-fns",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Emoji svgs wrapped as functions.",
   "type": "module",
   "files": [
