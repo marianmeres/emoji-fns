@@ -26,7 +26,7 @@
   "author": "Marian Meres <marian@meres.sk>",
   "license": "MIT",
   "devDependencies": {
-    "@marianmeres/emoji-list": "^1.0.1",
+    "@marianmeres/emoji-list": "^1.2.0",
     "@marianmeres/release": "^1.0.0",
     "@types/node": "^18.15.11",
     "kleur": "^4.1.5",

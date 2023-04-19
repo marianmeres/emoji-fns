@@ -96,8 +96,7 @@ async function build() {
 					.replace(/>\s+</g, '><')
 					.trim();
 
-				const safeId = emojiCodeMap[hexId].replace(/^emoji/, '');
-				const outname = fnPrefix + safeId;
+				const outname = fnPrefix + ucfirst(emojiCodeMap[hexId]);
 				let content = `export const ${outname} = (cls = null, size = null, style = null) => \`${svg}\`;\n`;
 				log(gray(`    ✔ ${outname}`));
 				fs.writeFileSync(path.join(DISTDIR, outdir, outname + '.js'), content);
@@ -133,4 +132,8 @@ function help() {
 
 `);
 	process.exit();
+}
+
+function ucfirst(str) {
+	return `${str}`.charAt(0).toUpperCase() + `${str}`.slice(1);
 }
